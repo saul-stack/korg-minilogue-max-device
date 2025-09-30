@@ -5,7 +5,7 @@
 
 
 
-## Introduction
+### Introduction
 
 This project was completed as part of my university module on computer music design, with the goal of creating a software solution to overcome inherent limits of fixed-architecture audio synthesis, exploring the creative potential of introducing generative patterns into the music-making process 
 in both live performance and recording settings.
@@ -16,7 +16,7 @@ This involved designing a virtual MIDI control surface with Max/MSP to introduce
 ---
 
 
-## Project goals
+### Project goals
 
 #### High-level
 - Build a tool to satisfy my own curiosity and provide creative utility to others
@@ -29,7 +29,6 @@ This involved designing a virtual MIDI control surface with Max/MSP to introduce
 - Develop knowledge of MIDI communications and standards
 - Improve user interface design skills in the context of music technology
 
----
 ## Project justification/inspiration
 
 
