@@ -24,6 +24,24 @@ This involved designing a virtual MIDI control surface with Max/MSP to introduce
 - Improve user interface design skills in the context of music technology
 
 ---
+## Project justification/inspiration
+
+
+#### Limitations of the Korg Minilogue
+
+- Limited built-in 16-step sequencer
+- Only 2 basic LFOs without phase/trigger controls or complex modulation- only basic waveforms.
+- Limited signal routing- no routing matrix
+- No random or generative elements
+
+---
+#### Inspiration
+- Modular hardware platforms such as Eurorack
+- [VCV Rack](https://vcvrack.com/) virtual modular synthesis
+- XFer Serum's routing matrix, 
+- Andrew Norris’ [Minilogue Controller](https://andrewnorris.uk/minilogue-controller/)
+
+	
 
 #### Docs
 
