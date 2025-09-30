@@ -9,12 +9,7 @@ This involved designing a virtual MIDI control surface with Max/MSP to introduce
 
 ---
 
-#### Personal notes
-> As the Minilogue doesn't use continuous potentiometers, priority is given to controls in the Max patch to prevent controls from snapping back awkwardly.  
 
----
-
-### Tutorials & Reference Guides
 
 #### Docs
 
