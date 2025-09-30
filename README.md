@@ -10,6 +10,20 @@ This involved designing a virtual MIDI control surface with Max/MSP to introduce
 ---
 
 
+## Project goals
+
+#### High-level
+- Build a tool to satisfy my own curiosity and provide creative utility to others
+
+#### Design/technical
+- Introduce responsive, generative and pseudo-random data streams to extend the capabilities of a fixed architecture synthesizer, with flexibility for other devices in future
+
+#### Learning goals
+- Gain fluency in Max/MSP
+- Develop knowledge of MIDI communications and standards
+- Improve user interface design skills in the context of music technology
+
+---
 
 #### Docs
 
