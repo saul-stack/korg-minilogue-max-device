@@ -1,5 +1,10 @@
 # Korg Minilogue – Generative, Reactive MIDI Sequencing
 
+
+![Max4Live Device](/Images/max-device.png)
+
+
+
 ## Introduction
 
 This project was completed as part of my university module on computer music design, with the goal of creating a software solution to overcome inherent limits of fixed-architecture audio synthesis, exploring the creative potential of introducing generative patterns into the music-making process 
@@ -7,6 +12,7 @@ in both live performance and recording settings.
 
 This involved designing a virtual MIDI control surface with Max/MSP to introduce "semi-modular" capabilities to the Korg Minilogue. The finished patch introduces evolving modulation sequences to MIDI control parameters, both random and responsive. 
 
+![Max4Live Device](/Images/max-device2.png)
 ---
 
 
