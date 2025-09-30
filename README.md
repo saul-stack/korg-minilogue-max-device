@@ -1,10 +1,6 @@
 # Korg Minilogue – Generative, Reactive MIDI Sequencing
 
-
 ![Max4Live Device](/Images/max-device.png)
-
-
-
 ### Introduction
 
 This project was completed as part of my university module on computer music design, with the goal of creating a software solution to overcome inherent limits of fixed-architecture audio synthesis, exploring the creative potential of introducing generative patterns into the music-making process 
@@ -56,6 +52,13 @@ This involved designing a virtual MIDI control surface with Max/MSP to introduce
 - Presented my proposal to the class and project lead. Received feedback and questions
 
 
+#### Design
+
+1.	Read, documented and verified Minilogue MIDI CC parameter [addresses](#minilogue-midi-cc-parameters) using Ableton Live 
+2. Established two-way communication between Max and the Minilogue and developed functionality
+3. Frontend- designed a polished user interface with color themes and audio-reactive sonograph.
+4. Compiled the patch as a Max4Live plugin.
+
 
 #### Docs
 
@@ -88,3 +91,6 @@ This involved designing a virtual MIDI control surface with Max/MSP to introduce
 
 #### Videos
 - [JSUI & GUI in JavaScript](https://www.youtube.com/watch?v=1P|U1VyRZ7k)  
+
+#### Minilogue MIDI CC Parameters
+![Korg Minilogue MIDI CC](/Images/minilogue-cc-commands.png)
