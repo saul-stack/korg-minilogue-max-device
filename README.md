@@ -40,14 +40,23 @@ This involved designing a virtual MIDI control surface with Max/MSP to introduce
 - Limited signal routing- no routing matrix
 - No random or generative elements
 
----
 #### Inspiration
 - Modular hardware platforms such as Eurorack
 - [VCV Rack](https://vcvrack.com/) virtual modular synthesis
-- XFer Serum's routing matrix, 
 - Andrew Norris’ [Minilogue Controller](https://andrewnorris.uk/minilogue-controller/)
 
-	
+### Development Process
+
+#### Research
+- Studied the MIDI CC standard
+- Installed Max and began practising
+
+#### Planning and presentation
+
+- Determined project bounds and fundamentals
+- Presented my proposal to the class and project lead. Received feedback and questions
+
+
 
 #### Docs
 
