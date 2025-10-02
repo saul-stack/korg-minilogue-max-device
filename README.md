@@ -11,6 +11,9 @@ This involved designing a virtual MIDI control surface with Max/MSP to introduce
 ![Max4Live Device](/Images/max-device2.png)
 ---
 
+### Signal Flow
+![Signal Flow Diagram](/Images/signal-flow.jpg)
+
 
 ### Project goals
 
@@ -42,23 +45,45 @@ This involved designing a virtual MIDI control surface with Max/MSP to introduce
 
 ### Development Process
 
-#### Research
-- Studied the MIDI CC standard
-- Installed Max and began practising
+#### Research and discovery
+- Studied Max [documentation](https://docs.cycling74.com/), browsed forums and drafted ideas for the project's goals
+- Installed MaxMSP and began experimenting with creating and modifying simple patches 
+- Studied the MIDI interface standard, including MIDI CC and routing
+
 
 #### Planning and presentation
-
 - Determined project bounds and fundamentals
-- Presented my proposal to the class and project lead. Received feedback and questions
+- Presented a project proposal to the class and project lead. Received feedback, questions and advice on techniques/potential pitfalls
 
 
 #### Design
 
-1.	Read, documented and verified Minilogue MIDI CC parameter [addresses](#minilogue-midi-cc-parameters) using Ableton Live 
-2. Established two-way communication between Max and the Minilogue and developed functionality
-3. Frontend- designed a polished user interface with color themes and audio-reactive sonograph.
-4. Compiled the patch as a Max4Live plugin.
+1.	Established two-way communication between the synthesizer and the DAW (Ableton Live).
+Read Minilogue MIDI CC parameter addresses and documented in a [reference table](#minilogue-midi-cc-parameters)
 
+1. Setup MIDI routing for the synthesizer in MaxMSP and verified addresses in the reference table to catch inconsistencies or errors
+2. Developed core functionality:
+   1. MIDI message I/O handling
+      1. Note commands
+      2. CC commands
+   2. Signal modulation
+      1. Digital LFOs
+      2. Audio reactive modulation
+      3. Audio-rate modulation/FM 
+   3.  Implemented MIDI routing for modulator host tempo sync
+
+3. Designed a frontend user interface
+   1. Used Max control objects to recreate the default layout of the synthesizer
+   2. Expandable UI section for signal modulators
+   3. Configurable color themes
+   4. Audio-reactive sonograph
+
+4. Compiled the project for Max4Live
+ ---
+
+
+
+## References
 
 #### Docs
 
