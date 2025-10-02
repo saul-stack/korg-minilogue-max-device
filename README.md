@@ -52,9 +52,8 @@ This involved designing a virtual MIDI control surface with Max/MSP to introduce
 
 
 #### Planning and presentation
-
 - Determined project bounds and fundamentals
-- Presented my proposal to the class and project lead. Received feedback and questions
+- Presented a project proposal to the class and project lead. Received feedback, questions and advice on techniques/potential pitfalls
 
 
 #### Design
