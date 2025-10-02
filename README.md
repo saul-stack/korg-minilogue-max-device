@@ -59,6 +59,7 @@ This involved designing a virtual MIDI control surface with Max/MSP to introduce
 3. Frontend- designed a polished user interface with color themes and audio-reactive sonograph.
 4. Compiled the patch as a Max4Live plugin.
 
+## References
 
 #### Docs
 
