@@ -59,10 +59,13 @@ This involved designing a virtual MIDI control surface with Max/MSP to introduce
 
 #### Design
 
-1.	Read, documented and verified Minilogue MIDI CC parameter [addresses](#minilogue-midi-cc-parameters) using Ableton Live 
-2. Established two-way communication between Max and the Minilogue and developed functionality
-3. Frontend- designed a polished user interface with color themes and audio-reactive sonograph.
-4. Compiled the patch as a Max4Live plugin.
+1.	Established two-way communication between the synthesizer and the DAW (Ableton Live).
+Read, documented and verified [Minilogue MIDI CC parameter addresses](#minilogue-midi-cc-parameters)
+1. Setup MIDI routing for the synthesizer in MaxMSP and began developing the core functionality
+2. Designed a frontend user interface with color themes and audio-reactive sonograph
+3. Compiled the project as Max4Live plugins
+
+
 
 ## References
 
