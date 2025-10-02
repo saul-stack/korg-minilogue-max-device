@@ -45,9 +45,11 @@ This involved designing a virtual MIDI control surface with Max/MSP to introduce
 
 ### Development Process
 
-#### Research
-- Studied the MIDI CC standard
-- Installed Max and began practising
+#### Research and discovery
+- Studied Max [documentation](https://docs.cycling74.com/), browsed forums and drafted ideas for the project's goals
+- Installed MaxMSP and began experimenting with creating and modifying simple patches 
+- Studied the MIDI interface standard, including MIDI CC and routing
+
 
 #### Planning and presentation
 
