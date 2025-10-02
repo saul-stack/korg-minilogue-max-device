@@ -11,6 +11,9 @@ This involved designing a virtual MIDI control surface with Max/MSP to introduce
 ![Max4Live Device](/Images/max-device2.png)
 ---
 
+### Signal Flow
+![Signal Flow Diagram](/Images/signal-flow.jpg)
+
 
 ### Project goals
 
